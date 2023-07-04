@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mixed selector</title>
+    <style>
+        .heading {
+            font-size: larger;
+            color: rgb(3, 24, 255);
+            /* background-color: black; */
+            font-weight: lighter;
+            text-align: center;
+        }
+
+        p {
+            color: aqua;
+            background-color: black;
+        }
+
+        #fifth {
+            font-size: 32px;
+        }
+
+        input {
+            background-color: aqua;
+            color: black;
+        }
+
+        input[type="password"] {
+            color: rgb(224, 6, 6);
+        }
+
+        .span {
+            color: rgb(248, 12, 12);
+        }
+
+        /* .lorem {
+            background-color: aqua;
+        } */
+    </style>
+</head>
+
+<body>
+    <h3 class="heading">Explore Mixed css</h3>
+    <p>My <span class="span">first</span> line css</p>
+    <p>My second line css</p>
+    <p>My <span class="span">third</span> line css</p>
+    <p>My fourth line css</p>
+    <p id="fifth">My fifth line css</p>
+    <p>My sixth line css</p>
+
+    <form action="">
+        <input type="text" placeholder="Your name">
+        <input type="email" name="" id="" placeholder="Enter your email">
+        <input type="password" name="" id="" placeholder="Enter your password">
+    </form>
+    <div class="lorem">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti autem quia illo, fuga dolorum non, rem
+            fugiat laborum modi dolore officia, quasi vitae animi? Sed, aut. Possimus cum repellendus tenetur!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti autem quia illo, fuga dolorum non, rem
+            fugiat laborum modi dolore officia, quasi vitae animi? Sed, aut. Possimus cum repellendus tenetur!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti autem quia illo, fuga dolorum non, rem
+            fugiat laborum modi dolore officia, quasi vitae animi? Sed, aut. Possimus cum repellendus tenetur!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti autem quia illo, fuga dolorum non, rem
+            fugiat laborum modi dolore officia, quasi vitae animi? Sed, aut. Possimus cum repellendus tenetur!</p>
+    </div>
+</body>
+
+</html>

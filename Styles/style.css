@@ -1,0 +1,75 @@
+/* practice-01
+.para2 {
+    color: cadetblue;
+    background-color: black;
+} */
+
+/* practice-02
+.heading {
+    font-size: 60px;
+    text-align: center;
+    color: #000;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: oblique;
+}
+
+.about {
+    font-size: small;
+    color: aqua;
+    background-color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: inherit;
+} */
+
+/* practice-03
+.division {
+    color: aqua;
+    background-color: black;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    box-shadow: 10px 5px yellowgreen;
+}
+#last {
+    color: blue;
+    font-size: larger;
+    
+}
+* {
+    margin: 0;
+    padding: 0%;
+} */
+
+/* practice-04 
+#head {
+    background-image: url('../Styles/icon.jpeg');
+    background-position: 100px;
+    background-repeat: no-repeat;
+    height: 300px;
+    background-color: rgb(98, 98, 131);
+    background-size: 300px;
+} */
+
+/* 
+practice-5
+h3 {
+    text-align: center;
+    font-size: larger;
+    height: 50px;
+}
+
+.border {
+    color: brown;
+    background-color: black;
+    height: 80px;
+    width: fit-content;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 12px 6px 8px;
+} */
+
+/* practice-06
+.proper {
+    display: inline-block;
+} */
